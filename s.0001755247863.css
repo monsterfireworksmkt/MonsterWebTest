@@ -1592,7 +1592,7 @@ select {
 
 .tabs01.js>.hdr .tit.slc {
     background: #fff;
-    color: #212121;
+    color: #ffffff;
     cursor: default;
     z-index: 3
 }
@@ -1989,7 +1989,7 @@ body[data-fixed=on] #header {
 
 #header>.cnt>#btnMainMenuMobile>.ico {
     font-size: 18px;
-    color: #212121
+    color: #9AC31C
 }
 
 #header>.cnt>#btnMainMenuMobile>.txt {
@@ -2713,6 +2713,7 @@ body[data-fixed=on] #header .lstRedesSociales {
 }
 
 #footer .ftrContent>.datosContacto::after {
+    color: #ffffff;
     content: "";
     overflow: hidden;
     display: block;
@@ -2721,6 +2722,7 @@ body[data-fixed=on] #header .lstRedesSociales {
 }
 
 #footer .ftrContent>.datosContacto>address {
+    color: #ffffff;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -2728,37 +2730,46 @@ body[data-fixed=on] #header .lstRedesSociales {
 }
 
 #footer .ftrContent>.datosContacto>address>* {
+    color: #ffffff;
     margin-right: 20px;
     line-height: 25px
 }
 
 #footer .ftrContent>.datosContacto>address>*:before {
+    color: #ffffff;
     content: '';
     font-family: "FIconos";
     margin-right: 10px
 }
 
 #footer .ftrContent>.datosContacto>address>.direccion:before {
+    color: #ffffff;
     content: '\e826'
+
 }
 
 #footer .ftrContent>.datosContacto>address>.telefono:before {
+    color: #ffffff;
     content: '\e825'
 }
 
 #footer .ftrContent>.datosContacto>address>.email:before {
+    color: #ffffff;
     content: '\e824'
 }
 
 #footer .ftrContent>.datosContacto>address>.horario:before {
+    color: #ffffff;
     content: '\e817'
 }
 
 #footer .ftrContent>.datosContacto>.lstRedesSociales {
+    color: #ffffff;
     font-size: 0
 }
 
 #footer .ftrContent>.datosContacto>.lstRedesSociales>.it {
+    color: #ffffff;
     margin: 0 5px
 }
 
@@ -2775,7 +2786,7 @@ body[data-fixed=on] #header .lstRedesSociales {
 #footer .ftrContent>.blk.blkSeo>.hdr>.tit {
     line-height: 25px;
     margin-right: 20px;
-    color: #212121;
+    color: #ffffff;
     font-size: 12px;
     font-weight: bold
 }
@@ -2797,7 +2808,7 @@ body[data-fixed=on] #header .lstRedesSociales {
 }
 
 #footer .ftrContent>.blk.blkSeo>.cnt>.lst>.it>a:hover {
-    color: #373737
+    color: #ffffff
 }
 
 #footer .ftrContent>.blk.blkEmpresa>.hdr {
@@ -2806,7 +2817,7 @@ body[data-fixed=on] #header .lstRedesSociales {
 
 #footer .ftrContent>.blk.blkEmpresa>.hdr>.tit {
     line-height: 20px;
-    color: #212121;
+    color: #ffffff;
     font-size: 16px;
     font-weight: bold
 }
